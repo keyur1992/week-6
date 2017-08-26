@@ -68,20 +68,27 @@
 									<form action="thankyou.php" method="post">
   Title:<br>
   <input type="text" name="title" required><br>
+  <span class="error"><?php echo $titleError;?></span>
  
   Release Date:<br>
   <input type="date" name="release_date" required><br>
+  <span class="error"><?php echo $release_dateError;?></span>
 
 Duration:<br>
   <input type="text" name="duration" required><br>
+  <span class="error"><?php echo $durationError;?></span>
+
   
   Genre:<br>
   <input type="text" name="genre" required><br>
+  <span class="error"><?php echo $genreError;?></span>
   
   Synopsis:<br>
   <textarea type="text" name="synopsis" required></textarea><br>
+  <span class="error"><?php echo $synopsisError;?></span>
 
 <input type="submit" value="Submit"><br>
+<span class="success"><?php echo $successMessage;?></span>
 
 
 </form>
