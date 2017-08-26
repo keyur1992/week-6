@@ -110,7 +110,7 @@ echo "</tr>";
   	      </tr>
     	    <tr>
     	      <td>&nbsp;</td>
-    	      <td><input type="submit" name="button" id="button" value="Delete" class="btn btn-primary" /></td>
+    	      <td><input type="submit" name="button"  value="Delete"/></td>
   	      </tr>
   	    </table>
 </form>
